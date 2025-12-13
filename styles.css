@@ -1,4 +1,21 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+.header__mobile{
+    display: none;
+}
+
+.header{
+    background-color: var(--color-fondo-50);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 :root{
     /* HEADER */
     --color-fondo-700:#7B49E5;
